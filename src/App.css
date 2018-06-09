@@ -1,0 +1,134 @@
+/****** Fonts *******/
+/* 
+    Feel free to change the path of the font to the location of your choice.
+    All font faces are included in the assets package.
+*/
+
+@font-face {
+	font-family: 'Neutra';
+    src: url("./fonts/Neutra2Text-Book.otf");
+}
+
+@font-face {
+	font-family: 'Neutra Bold';
+	src: url('./fonts/Neutra2Text-Bold.otf');
+}
+
+@font-face {
+	font-family: 'Neutra Semibold';
+    src: url('./fonts/Neutra2Text-Demi.otf');
+}
+
+@font-face {
+	font-family: 'Neutra Italic';
+    src: url('./fonts/Neutra2Text-BookItalic.otf');
+}
+
+
+/****** General Styles ******/
+
+:root{
+    --color-blue: #9CCAEA;
+    --color-light-blue: #A7D2E4;
+    --color-light-grey: #EAEAEA;
+    --color-med-grey: #cccccc;
+    --color-dark-grey: #2A2A2A;
+    --color-white: #ffffff;
+}
+
+html * {
+    outline: 0 !important;
+}
+
+body {
+	font-family: 'Georgia';
+    font-size: 16px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Neutra';
+    font-variant-numeric: lining-nums;
+    text-transform: uppercase;
+    color: var(--color-dark-grey);
+    margin-bottom: 0.25rem;
+}
+h1, h2{
+    letter-spacing: 1px;
+}
+h3, h4, h5, h6{
+    letter-spacing: 0.5px;
+}
+h1{font-size: 36px;}
+h2{font-size: 32px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 20px;}
+h6{font-size: 18px;}
+
+p{
+    font-family: 'Georgia';
+    font-size: 16px;
+    line-height: 18px;
+}
+p.sans-serif{
+    font-family: 'Neutra';
+    font-variant-numeric: lining-nums;
+}
+p.sans-serif.bold{
+    font-family: 'Neutra Bold';
+}
+p.sans-serif.italic{
+    font-family: 'Neutra Italic';
+}
+
+a {
+    cursor: pointer;
+    font-family: 'Georgia';
+	font-size: 16px;
+	color: var(--color-blue);
+	font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited, a:focus, a:active, a:hover {
+    text-decoration: none !important;
+}
+a:visited{
+	color: var(--color-blue);
+}
+a:hover {
+	color: var(--color-light-blue);
+}
+
+.bg-light-grey{
+    background: var(--color-light-grey);
+}
+.bg-dark-grey{
+    background: var(--color-dark-grey);
+}
+
+.btn {
+    font-family: 'Neutra Semibold';
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    border-radius: 0px;
+	padding: 15px 30px;
+}
+.btn-black{
+	background: var(--color-dark-grey);
+    color: var(--color-white);
+    border: none;
+}
+.btn-black:hover, .btn-black:focus {
+    color: var(--color-med-grey);
+}
+
+/****** Your Custom Styles ******/
+/* 
+    Add any custom styles you need can go here
+*/
+
+    
+    

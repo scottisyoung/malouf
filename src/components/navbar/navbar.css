@@ -1,0 +1,69 @@
+.navBG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--color-white);
+  height: 55px;
+  width: 100%; }
+
+.navLogo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  width: 110px;
+  height: 17px;
+  cursor: pointer; }
+
+.navMenuParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  .navMenuParent .navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    color: #333;
+    font-family: 'Neutra';
+    letter-spacing: 1.5px;
+    margin-top: 12px;
+    margin-right: 14px;
+    margin-left: 14px;
+    padding: 20px;
+    cursor: pointer; }
+
+.shopCount {
+  position: absolute;
+  top: 16px;
+  right: 145px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer; }
+
+#shop {
+  position: absolute;
+  top: 15px;
+  right: 120px;
+  font-size: 25px;
+  cursor: pointer; }
+
+.divider {
+  position: absolute;
+  top: 17px;
+  right: 102px;
+  color: grey;
+  cursor: pointer; }
+
+#lock {
+  position: absolute;
+  top: 21px;
+  right: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer; }

@@ -1,0 +1,106 @@
+@mixin flex-banners($direction: column, $justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin flex-center($direction: row, $justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+.bannersParent {
+    @include flex-banners(column, center, center);
+}
+
+// Main Header Section
+
+.landingHeader {
+    background:url("../../images/images/supima-header-web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 725px;
+
+    .headerTitleParent {
+        @include flex-banners(column, center, center);
+        margin-top: 170px;
+        margin-left: 750px;
+
+        .supimaLogo {
+            height: 100px;
+        }
+
+        hr {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            width: 65px;
+            height: 1.5px;
+            border: 0;
+            background: var(--color-dark-grey);
+        }
+
+        h5 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .headerParagraph {
+            width: 575px;
+            line-height: 25px;
+            margin-bottom: 30px;
+            font-size: 14.5px;
+            font-weight: 600;
+        }
+
+        .showroom {
+            text-align: center;
+            color: var(--color-dark-grey);
+            letter-spacing: .5px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}
+
+.bg-dark-grey {
+    height: 50px;
+    width: 100%;
+    @include flex-center(row, center, center);
+    color: var(--color-white);
+
+    .vegas {
+        @include flex-center(row, center, center);
+        padding-top: 5.5px;
+        width: 170px;
+        letter-spacing: 1px;
+        font-family: 'Neutra Bold';
+    }
+
+    .upcoming {
+        @include flex-center(row, center, center);
+        width: 230px;
+        letter-spacing: 1.3px;
+
+        a.upcoming {
+            font-weight: 500;
+        }
+    }
+}
+
+
+// Product Section
+
+.productBG {
+    height: 1500px;
+    width: 100%;
+    background-color: var(--color-white);
+}
+
+
