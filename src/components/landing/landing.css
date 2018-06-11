@@ -73,7 +73,7 @@
       font-weight: 500; }
 
 .productBG {
-  height: 1500px;
+  height: 1550px;
   width: 100%;
   background-color: var(--color-white); }
 
@@ -114,4 +114,80 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: row; }
+  .linenParent .linenImgs {
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 105px;
+    margin-left: 105px; }
+  .linenParent .warranty {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 225px;
+    height: 100px; }
+
+.titleParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  .titleParent .linensTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    width: 250px;
+    margin-right: 82px;
+    margin-left: 82px;
+    font-family: 'Neutra Bold';
+    font-size: 20px;
+    letter-spacing: .8px; }
+
+.paragraphParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -20px; }
+  .paragraphParent .linenParagraphs {
+    font-size: 16px;
+    letter-spacing: .4px;
+    margin-right: 50px;
+    margin-left: 60px;
+    width: 305px;
+    height: 240px;
+    font-weight: 500; }
+  .paragraphParent #trademark {
+    font-size: 9px; }
+
+.learnMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  letter-spacing: 1.3px; }
+
+.videoParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 280px; }
+  .videoParent .videoThumb {
+    position: absolute;
+    width: 1000px;
+    height: 500px; }
+  .videoParent .play {
+    height: 100px;
+    margin-top: 40px;
+    z-index: 2;
+    cursor: pointer; }
+
+.bg-light-grey {
+  width: 100%;
+  height: 1000px; }
+  .bg-light-grey .field {
+    width: 100%;
+    height: 550px; }

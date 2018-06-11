@@ -8,7 +8,7 @@
 // Navbar Background
 
 .navBG {
-    @include flex-center(row, center, center);
+    @include flex-center;
     background-color: var(--color-white);
     height: 55px;
     width: 100%;
@@ -29,10 +29,10 @@
 // Navigation Menu
 
 .navMenuParent {
-    @include flex-center(row, center, center);
+    @include flex-center;
 
     .navMenu {
-        @include flex-center(row, center, center);
+        @include flex-center;
         font-size: 15px;
         color: #333;
         font-family: 'Neutra';

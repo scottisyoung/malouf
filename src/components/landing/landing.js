@@ -8,6 +8,10 @@ import Linen1 from '../../images/images/supima-feel.png';
 import Cotton from '../../images/images/supima-head.png';
 import Linen2 from '../../images/images/supima-color.png';
 import Seal from '../../images/icons-logos/supima-certified-seal.png';
+import year from '../../images/icons-logos/5-year-warranty.png';
+import videoThumb from '../../images/images/video-thumbnail.jpg';
+import Play from '../../images/icons-logos/play-button.png';
+import Field from '../../images/images/supima-field-footer-bwfade.png';
 
 
 class Landing extends Component {
@@ -74,23 +78,96 @@ class Landing extends Component {
                                 <img className="wovenImg" src={WovenImage}/>
                             </div>
                         </div>
-                    </div>
+                    
 
         {/*Lower White Background:  This is the section with the circular linen images.*/}
 
-                    <div className="linenParent">
-                        <div>
-                            <img src={Linen1}/>
+                        <div className="linenParent">
+                            <div>
+                                <img className="linenImgs" src={Linen1}/>
+                            </div>
+                            <div>
+                                <img className="warranty" src={year}/>
+                                <img className="linenImgs" src={Cotton}/>
+                            </div>
+                            <div>
+                                <img className="linenImgs" src={Linen2}/>   
+                            </div>
+                            <div>
+                                <img className="linenImgs" src={Seal}/>
+                            </div>
                         </div>
-                        <div>
-                            <img src={Cotton}/>
+
+                        <div className="titleParent">
+                            <div className="linensTitle">
+                                LUXURIOUS FEEL
+                            </div>
+                            <div className="linensTitle">
+                                SUPERIOR STRENGTH
+                            </div>
+                            <div className="linensTitle">
+                                BEAUTIFUL COLOR
+                            </div>
+                            <div className="linensTitle">
+                                PROTECTED FIBER
+                            </div>
                         </div>
-                        <div>
-                            <img src={Linen2}/>   
+
+                        <div className="paragraphParent">
+                            <div className="linenParagraphs">
+                                This superior extra-long staple cotton is
+                                100 percent American grown. The fibers
+                                are an impressive 35 percent longer than
+                                upland cotton and produce smoother,
+                                softer yarns. The result is luxurious 
+                                sateen sheets with an elegant drape.
+                            </div>
+                            <div className="linenParagraphs">
+                                Twice as strong as regular cotton,
+                                Supima cotton resists pilling, breaking,
+                                and tearing. Backed by our industry-
+                                leading 5-year warranty, this resilient
+                                fiber lasts longer than regular cotton and 
+                                keeps its brilliance through years of 
+                                washing.
+                            </div>
+                            <div className="linenParagraphs">
+                                Supima cotton is finely woven and
+                                mercerized to create fabric that is softer
+                                and more vibrantly colored. Enjoy our 
+                                elegant color palatte of White, Smoke,
+                                Flax, and Charcoal for truly luxurious
+                                sheeting that customers covet.
+                            </div>
+                            <div className="linenParagraphs">
+                                Supima<sup><i id="trademark" class="fa fa-registered"></i></sup> is the trademark used to
+                                promote American-grown, extra-long
+                                staple cotton. To bear the Supima
+                                trademark, products must be sourced
+                                through a licensed supply chain. This 
+                                process protects buyers from false
+                                advertising. 
+                            </div>
                         </div>
+
                         <div>
-                            <img src={Seal}/>
+                            <a className="learnMore" href="#">Learn More About Supima &#8250;</a>
                         </div>
+
+                        <div className="videoParent">
+                            <img className="videoThumb" src={videoThumb}/>
+                            <img className="play" src={Play}/>
+                        </div>
+                    </div>
+
+{/*Pillow Line Section:  This is the section with the light grey background*/}
+
+                    <div className="bg-light-grey">
+                        <img className="field" src={Field}/>
+
+
+
+
                     </div>
 
                 </div>

@@ -13,7 +13,7 @@
 }
 
 .bannersParent {
-    @include flex-banners(column, center, center);
+    @include flex-banners;
 }
 
 // Main Header Section:  This is the section that has the flower background.
@@ -29,7 +29,7 @@
     height: 725px;
 
     .headerTitleParent {
-        @include flex-banners(column, center, center);
+        @include flex-banners;
         margin-top: 170px;
         margin-left: 750px;
 
@@ -74,11 +74,11 @@
 .bg-dark-grey {
     height: 50px;
     width: 100%;
-    @include flex-center(row, center, center);
+    @include flex-center;
     color: var(--color-white);
 
     .vegas {
-        @include flex-center(row, center, center);
+        @include flex-center;
         padding-top: 5.5px;
         width: 170px;
         letter-spacing: 1px;
@@ -86,7 +86,7 @@
     }
 
     .upcoming {
-        @include flex-center(row, center, center);
+        @include flex-center;
         width: 230px;
         letter-spacing: 1.3px;
 
@@ -101,13 +101,13 @@
     // This is the upper portion with the Woven Section. 
 
 .productBG {
-    height: 1500px;
+    height: 1550px;
     width: 100%;
     background-color: var(--color-white);
 }
 
 .wovenParent {
-    @include flex-center(row, center, center);
+    @include flex-center;
 
     .wovenTitle {
         position: absolute;
@@ -129,7 +129,7 @@
         margin-left: -10px;
 
         .btn-black {
-            @include flex-center(row, center, center);
+            @include flex-center;
             height: 40px;
             width: 160px;
             cursor: pointer;
@@ -141,11 +141,97 @@
         margin-left: 250px;
         height: 580px;
         width: 950px;
+    
     }
 }
 
 // This is the lower part of the product section that has the circular linen pictures.
 
 .linenParent {
-    @include flex-banners (column, center, center);
+    @include flex-center;
+
+    .linenImgs {
+        height: 200px;
+        margin-top: 20px;
+        margin-right: 105px;
+        margin-left: 105px;
+    }
+
+    .warranty {
+        position: absolute;
+        margin-top: 16px;
+        margin-left: 225px;
+        height: 100px;
+    }
+}
+
+.titleParent {
+    @include flex-center;
+
+    .linensTitle {
+        @include flex-center;
+        height: 100px;
+        width: 250px;
+        margin-right: 82px;
+        margin-left: 82px;
+        font-family: 'Neutra Bold';
+        font-size: 20px;
+        letter-spacing: .8px;
+    }
+}
+
+.paragraphParent {
+    @include flex-center;
+    margin-top: -20px;
+
+    .linenParagraphs {
+        font-size: 16px;
+        letter-spacing: .4px;
+        margin-right: 50px;
+        margin-left: 60px;
+        width: 305px;
+        height: 240px;
+        font-weight: 500;
+    }
+
+    #trademark {
+        font-size: 9px;
+    }
+}
+
+.learnMore {
+    @include flex-center;
+    width: 100%;
+    letter-spacing: 1.3px;
+}
+
+.videoParent {
+    @include flex-center;
+    margin-top: 280px;
+
+    .videoThumb {
+        position: absolute;
+        width: 1000px;
+        height: 500px;
+    }
+
+    .play {
+        height: 100px;
+        margin-top: 40px;
+        z-index: 2;
+        cursor: pointer;
+    }
+}
+
+
+// Pillow Line Section:   This is the section that has the light grey background. 
+
+.bg-light-grey {
+    width: 100%;
+    height: 1000px;
+
+    .field {
+        width: 100%;
+        height: 550px;
+    }
 }
