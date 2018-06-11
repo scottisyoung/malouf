@@ -47,7 +47,7 @@ class Landing extends Component {
 
 {/*Dark Background Strip:  This is the dark gray background strip section after the flower background*/}
                     
-                    <div className="bg-dark-grey">
+                    <div className="dark-grey">
                         <div className="vegas">
                             <div>MISS US IN VEGAS?</div>
                         </div>
@@ -169,8 +169,15 @@ class Landing extends Component {
 
 
                     </div>
+                </div>
+
+
+                <div className="bg-dark-grey">
 
                 </div>
+
+
+
             </div>
         )
     }

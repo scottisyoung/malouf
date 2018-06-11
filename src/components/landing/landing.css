@@ -45,15 +45,16 @@
       font-size: 15px;
       font-weight: 600; }
 
-.bg-dark-grey {
+.dark-grey {
   height: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  color: var(--color-white); }
-  .bg-dark-grey .vegas {
+  color: var(--color-white);
+  background: var(--color-dark-grey); }
+  .dark-grey .vegas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,14 +63,14 @@
     width: 170px;
     letter-spacing: 1px;
     font-family: 'Neutra Bold'; }
-  .bg-dark-grey .upcoming {
+  .dark-grey .upcoming {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 230px;
     letter-spacing: 1.3px; }
-    .bg-dark-grey .upcoming a.upcoming {
+    .dark-grey .upcoming a.upcoming {
       font-weight: 500; }
 
 .productBG {
@@ -178,7 +179,8 @@
   .videoParent .videoThumb {
     position: absolute;
     width: 1000px;
-    height: 500px; }
+    height: 500px;
+    z-index: 1; }
   .videoParent .play {
     height: 100px;
     margin-top: 40px;
@@ -187,7 +189,26 @@
 
 .bg-light-grey {
   width: 100%;
-  height: 1000px; }
+  height: 1300px; }
   .bg-light-grey .field {
     width: 100%;
     height: 550px; }
+
+.bg-dark-grey {
+  height: 500px;
+  width: 100%;
+  z-index: 3;
+  position: relative; }
+
+.bg-dark-grey:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: inherit;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: skewY(-6deg);
+  transform-origin: top left; }
