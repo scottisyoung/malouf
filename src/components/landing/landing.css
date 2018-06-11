@@ -76,3 +76,42 @@
   height: 1500px;
   width: 100%;
   background-color: var(--color-white); }
+
+.wovenParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  .wovenParent .wovenTitle {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 20px;
+    letter-spacing: .5px; }
+  .wovenParent .wovenSubtitle {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    letter-spacing: 1px; }
+  .wovenParent .btn {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -10px; }
+    .wovenParent .btn .btn-black {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      height: 40px;
+      width: 160px;
+      cursor: pointer; }
+  .wovenParent .wovenImg {
+    margin-top: 20px;
+    margin-left: 250px;
+    height: 580px;
+    width: 950px; }
+
+.linenParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }

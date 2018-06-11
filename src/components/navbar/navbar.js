@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./navbar.css";
 
-//icons 
+//Imported icons used in the NavBar
 import navLogo from "../../images/icons-logos/MaloufLogo.png";
 
 

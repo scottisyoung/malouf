@@ -16,7 +16,7 @@
     @include flex-banners(column, center, center);
 }
 
-// Main Header Section
+// Main Header Section:  This is the section that has the flower background.
 
 .landingHeader {
     background:url("../../images/images/supima-header-web.jpg");
@@ -69,6 +69,8 @@
     }
 }
 
+// This is the code for the gray strip section
+
 .bg-dark-grey {
     height: 50px;
     width: 100%;
@@ -95,7 +97,8 @@
 }
 
 
-// Product Section
+// Product Section:   This is the section that has the white background. 
+    // This is the upper portion with the Woven Section. 
 
 .productBG {
     height: 1500px;
@@ -103,4 +106,46 @@
     background-color: var(--color-white);
 }
 
+.wovenParent {
+    @include flex-center(row, center, center);
 
+    .wovenTitle {
+        position: absolute;
+        margin-top: -60px;
+        margin-left: 20px;
+        letter-spacing: .5px;
+    }
+
+    .wovenSubtitle {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 20px;
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        position: absolute;
+        margin-top: 90px;
+        margin-left: -10px;
+
+        .btn-black {
+            @include flex-center(row, center, center);
+            height: 40px;
+            width: 160px;
+            cursor: pointer;
+        }
+    }
+
+    .wovenImg {
+        margin-top: 20px;
+        margin-left: 250px;
+        height: 580px;
+        width: 950px;
+    }
+}
+
+// This is the lower part of the product section that has the circular linen pictures.
+
+.linenParent {
+    @include flex-banners (column, center, center);
+}
