@@ -75,7 +75,7 @@
     height: 50px;
     width: 100%;
     @include flex-center;
-    color: var(--color-white);
+    color: var(--color-light-grey);
     background: var(--color-dark-grey);
 
     .vegas {
@@ -209,7 +209,9 @@
 .learnMore {
     @include flex-center;
     width: 100%;
-    letter-spacing: 1.3px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .videoParent {
@@ -236,7 +238,7 @@
 
 .bg-light-grey {
     width: 100%;
-    height: 1350px;
+    height: 1380px;
 
     .field {
         width: 100%;
@@ -330,44 +332,92 @@
     .randomPicsParent {
         @include flex-center;
         position: relative;
-        margin-top: 80px;
-    }
+        margin-top: 130px;
 
-    .headboard {
-        position: relative;
-        margin-top: 225px;
-        margin-right: 15px;
-        height: 225px;
-        width: 500px;
-        z-index: 4;
-    }
+        #headboardTitle {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+            margin-top: 155px;
+            line-height: 0px;
+            letter-spacing: .8px;
+        }
+        .newStructures {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 30px;
+            line-height: 2px;
+            margin-right: 20px;
+            font-style: italic;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
 
-    .showroom {
-        position: relative;
-        margin-top: 15px;
-        margin-left: 15px;
-        margin-right: 15px;
-        width: 500px;
-        height: 450px;
-        z-index: 4;
-    }
+        #supStructures {
+            font-size: 11px;
+        }
 
-    .hamburger {
-        position: relative;
-        margin-top: -230px;
-        margin-left: 15px;
-        width: 500px;
-        height: 225px;
-        z-index: 4;
-    }
+        sup {
+            vertical-align: baseline;
+            position: relative;
+            top: -0.6em;
+        }
 
+        .headboard {
+            position: relative;
+            margin-right: 20px;
+            height: 200px;
+            width: 500px;
+            z-index: 4;
+        }
+    
+        .showroom {
+            position: relative;
+            margin-top: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 500px;
+            height: 400px;
+            z-index: 4;
+        }
+    
+        .hamburger {
+            position: relative;
+            margin-top: -115px;
+            margin-left: 20px;
+            width: 500px;
+            height: 200px;
+            z-index: 4;
+        }
+
+        #hamburgerTitle {
+            position: relative;
+            margin-left: 20px;
+            margin-top: 35px;
+            z-index: 4;
+            color: var(--color-light-grey);
+            line-height: 0px;
+            letter-spacing: .8px;
+        }
+
+        .chefPrepared {
+            position: relative;
+            z-index: 4;
+            line-height: 2px;
+            margin-left: 20px;
+            color: var(--color-light-grey);
+            font-style: italic;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+    }
 }
 
 
 // Dark Grey Thank You Section:  This section is the dark grey section with the angled background.
 
 .bg-dark-grey {
-    height: 500px;
+    height: 440px;
     width: 100%;
     position: relative;
 }
@@ -385,3 +435,28 @@
     transform: skewY(-6deg);
     transform-origin: top left;
 }
+
+.thankTitle {
+    @include flex-center;
+    position: relative;
+    z-index: 4;
+
+    .thank {
+        margin-top: 230px;
+        color: var(--color-light-grey);
+        line-height: 2px;
+    }
+
+    .thankSub {
+        color: var(--color-light-grey);
+        font-weight: 400;
+        line-height: 10px;
+    }
+
+    .recap {
+        margin-top: 30px;
+        letter-spacing: 1.3px;
+        font-weight: 500;
+    }
+}
+

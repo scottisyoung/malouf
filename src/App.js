@@ -5,6 +5,7 @@ import './App.css';
 
 import Navbar from './components/navbar/navbar.js';
 import Landing from './components/landing/landing.js';
+import Footer from './components/footer/footer.js';
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <div>
           <Navbar/>
           <Landing/>
+          <Footer/>
         </div>
       </div>
     );

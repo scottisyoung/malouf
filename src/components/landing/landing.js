@@ -223,29 +223,44 @@ class Landing extends Component {
 
                         <div className="randomPicsParent">
                             <div>
-                                <img className="headboard" src={Headboard}/>
+                                <div>
+                                    <p id="headboardTitle" className="sans-serif bold">A TOUCH OF ELEGANCE:</p>
+                                    <p className="newStructures">New Structures <sup><i id="supStructures" className="fa fa-trademark"></i></sup> &nbsp;Headboards</p>
+                                    <img className="headboard" src={Headboard}/>
+                                </div>
                             </div>
                             <div>
                                 <img className="showroom" src={Showroom}/>
                             </div>
                             <div>
-                                <img className="hamburger" src={Hamburger}/>
+                                <div>
+                                    <img className="hamburger" src={Hamburger}/>
+                                    <p id="hamburgerTitle" className="sans-serif bold">A SENSATIONAL EXPERIENCE:</p>
+                                    <p className="chefPrepared">Chef-Prepared Gourmet Food & Giveaways</p>
+                                </div>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
 
 {/*Dark Grey Section:  This is the section with the Dark Grey Background with the 3 pictures included.*/}
 
                 <div className="bg-dark-grey">
-
+                    <div>
+                        <div className="thankTitle"> 
+                            <h1 className="thank">THANK YOU</h1>
+                        </div>
+                        <div className="thankTitle">
+                            <h5 className="thankSub">FOR ANOTHER GREAT MARKET</h5>
+                        </div>
+                        <div className="thankTitle">
+                            <a href="#" className="recap">View Showroom Recap &#8250;</a>
+                        </div>
+                    </div>
                 </div>
 
 
-
+                
             </div>
         )
     }
