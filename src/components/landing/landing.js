@@ -12,6 +12,12 @@ import year from '../../images/icons-logos/5-year-warranty.png';
 import videoThumb from '../../images/images/video-thumbnail.jpg';
 import Play from '../../images/icons-logos/play-button.png';
 import Field from '../../images/images/supima-field-footer-bwfade.png';
+import Pillows from '../../images/images/expanded-z-line-all-together.png';
+import Headboard from '../../images/images/headboard.jpg';
+import Showroom from '../../images/images/showroom.jpg';
+import Hamburger from '../../images/images/hamburger.jpg';
+import Pillows2 from '../../images/images/divided-z-line-2.png';
+import Pillows3 from '../../images/images/divided-z-line.png';
 
 
 class Landing extends Component {
@@ -140,7 +146,7 @@ class Landing extends Component {
                                 sheeting that customers covet.
                             </div>
                             <div className="linenParagraphs">
-                                Supima<sup><i id="trademark" class="fa fa-registered"></i></sup> is the trademark used to
+                                Supima<sup><i id="trademark" className="fa fa-registered"></i></sup> is the trademark used to
                                 promote American-grown, extra-long
                                 staple cotton. To bear the Supima
                                 trademark, products must be sourced
@@ -165,12 +171,74 @@ class Landing extends Component {
                     <div className="bg-light-grey">
                         <img className="field" src={Field}/>
 
+                        <div className="pillowTitle">
+                            <h3>WE'VE EXPANDED THE Z<sup><i id="sup" className="fa fa-trademark"></i></sup></h3>
+                        </div>
+                        <div className="pillowTitle2">
+                            <h3>SHOULDER PILLOW LINE</h3>
+                        </div>
+                        <div className="pillowParaParent">
+                            <div className="pillowParagraph">
+                                <p id="pillowPara" className="sans-serif">
+                                Building on the success of our unique shoulder design, side sleepers can 
+                                choose from a variety of Dough<sup><i id="registered" className="fa fa-registered"></i></sup> pillows to meet their needs and 
+                                preferences. Our vibrant colors, refreshing fragrances, and beautiful 
+                                packaging create a very attractive display you won't want to miss. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="pillowImgParent">
+                            <div>
+                                <img className="pillowsImg1" src ={Pillows}/>
+                            </div>
+                        </div>
+
+                        <div className="pillowNamesParent">
+                            <div className="pillowSpace">
+                                <p className="sans-serif italic">Gel Dough <sup><i id="pillowReg" className="fa fa-registered"></i></sup> + Z <sup><i id="pillowSup" className="fa fa-trademark"></i></sup> Gel</p>
+                                <a href="#">View &#8250;</a>  
+                            </div>
+                            <div className="pillowSpace">
+                                <p className="sans-serif italic">Zoned Gel Dough <sup><i id="pillowReg" className="fa fa-registered"></i></sup></p>
+                                <a href="#">View &#8250;</a> 
+                            </div>
+                            <div className="pillowSpace">
+                                <p className="sans-serif italic">Bamboo Charcoal</p>
+                                <a href="#">View &#8250;</a> 
+                            </div>
+                            <div className="pillowSpace">
+                                <p className="sans-serif italic">Lavender</p>
+                                <a href="#">View &#8250;</a> 
+                            </div>
+                            <div className="pillowSpace">
+                                <p className="sans-serif italic">Chamomile</p>
+                                <a href="#">View &#8250;</a> 
+                            </div>
+                            <div className="pillowSpace">
+                                <p className="sans-serif italic">Peppermint</p>
+                                <a href="#">View &#8250;</a> 
+                            </div>
+                        </div>
+
+                        <div className="randomPicsParent">
+                            <div>
+                                <img className="headboard" src={Headboard}/>
+                            </div>
+                            <div>
+                                <img className="showroom" src={Showroom}/>
+                            </div>
+                            <div>
+                                <img className="hamburger" src={Hamburger}/>
+                            </div>
+                        </div>
 
 
 
                     </div>
                 </div>
 
+{/*Dark Grey Section:  This is the section with the Dark Grey Background with the 3 pictures included.*/}
 
                 <div className="bg-dark-grey">
 

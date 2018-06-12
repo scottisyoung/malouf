@@ -198,6 +198,12 @@
     #trademark {
         font-size: 9px;
     }
+
+    sup {
+        vertical-align: baseline;
+        position: relative;
+        top: -0.4em;
+    }
 }
 
 .learnMore {
@@ -230,20 +236,139 @@
 
 .bg-light-grey {
     width: 100%;
-    height: 1300px;
+    height: 1350px;
 
     .field {
         width: 100%;
-        height: 550px;
+        height: 500px;
     }
+
+    .pillowTitle {
+        margin-top: -130px;
+        @include flex-center;
+        
+        h3 {
+            letter-spacing: 1px;
+        }
+
+        #sup {
+            font-size: 18px;
+
+            h3 {
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .pillowTitle2 {
+        margin-top: -30px;
+        @include flex-center;
+    }
+
+    .pillowParaParent {
+        @include flex-center;
+
+        .pillowParagraph {
+            margin-top: 20px;
+            margin-bottom: -20px;
+            width: 560px;
+            height: 200px;
+            font-weight: 500;
+        }
+
+        #pillowPara {
+            line-height: 22px;
+            letter-spacing: 1px;
+        }
+
+        #registered {
+            font-size: 10px;
+        }
+
+        sup {
+            vertical-align: baseline;
+            position: relative;
+            top: -0.4em;
+        }
+    }
+
+    .pillowImgParent {
+        @include flex-center;
+
+        .pillowsImg1 {
+            height: 180px;
+        }
+    }
+
+    .pillowNamesParent {
+        @include flex-center;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        .pillowSpace {
+            @include flex-banners;
+            margin-right: 90px;
+            margin-left: 70px;
+        }
+
+        #pillowReg {
+            font-size: 9px;
+        }
+
+        #pillowSup {
+            font-size: 9px;
+        }
+
+        sup {
+            vertical-align: baseline;
+            position: relative;
+            top: -0.4em;
+        }
+
+    }
+
+    .randomPicsParent {
+        @include flex-center;
+        position: relative;
+        margin-top: 80px;
+    }
+
+    .headboard {
+        position: relative;
+        margin-top: 225px;
+        margin-right: 15px;
+        height: 225px;
+        width: 500px;
+        z-index: 4;
+    }
+
+    .showroom {
+        position: relative;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 500px;
+        height: 450px;
+        z-index: 4;
+    }
+
+    .hamburger {
+        position: relative;
+        margin-top: -230px;
+        margin-left: 15px;
+        width: 500px;
+        height: 225px;
+        z-index: 4;
+    }
+
 }
+
 
 // Dark Grey Thank You Section:  This section is the dark grey section with the angled background.
 
 .bg-dark-grey {
     height: 500px;
     width: 100%;
-    z-index: 3;
     position: relative;
 }
 
