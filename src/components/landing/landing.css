@@ -382,3 +382,111 @@
     margin-top: 30px;
     letter-spacing: 1.3px;
     font-weight: 500; }
+
+@media screen and (max-width: 2200px) {
+  .landingHeader {
+    height: 825px; } }
+
+@media screen and (max-width: 2000px) {
+  .landingHeader {
+    height: 775px; } }
+
+@media screen and (max-width: 1700px) {
+  .landingHeader {
+    height: 675px; } }
+
+@media screen and (max-width: 1600px) {
+  .landingHeader {
+    height: 625px; }
+  .headerTitleParent {
+    margin-top: 120px !important;
+    margin-right: 50px; } }
+
+@media screen and (max-width: 1536px) {
+  .landingHeader {
+    height: 575px; }
+  .headerTitleParent {
+    margin-top: 90px !important;
+    margin-right: 70px; } }
+
+@media screen and (max-width: 1400px) {
+  .landingHeader {
+    height: 525px; }
+  .headerTitleParent {
+    margin-top: 70px !important;
+    margin-right: 100px; } }
+
+@media screen and (max-width: 1366px) {
+  .landingHeader {
+    height: 500px; }
+  .headerTitleParent {
+    margin-top: 50px !important;
+    margin-right: 160px; } }
+
+@media screen and (max-width: 1280px) {
+  .landingHeader {
+    background-position: right bottom;
+    height: 475px; }
+  .headerTitleParent {
+    margin-top: 40px !important;
+    margin-right: 300px; } }
+
+@media screen and (max-width: 1190px) {
+  .landingHeader {
+    background-position: bottom; }
+  .headerTitleParent {
+    margin-top: 40px !important;
+    margin-right: 300px; } }
+
+@media screen and (max-width: 1100px) {
+  .landingHeader {
+    height: 625px; }
+  .headerTitleParent {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 100px !important; }
+  .headerParagraph {
+    width: 500px !important; } }
+
+@media screen and (max-width: 1024px) {
+  .headerTitleParent {
+    margin-top: 90px !important; } }
+
+@media screen and (max-width: 812px) {
+  .headerTitleParent {
+    margin-top: 80px !important; }
+  .headerParagraph {
+    width: 450px !important; } }
+
+@media screen and (max-width: 640px) {
+  .headerParagraph {
+    width: 400px !important; } }
+
+@media screen and (max-width: 568px) {
+  .headerParagraph {
+    width: 350px !important; } }
+
+@media screen and (max-width: 480px) {
+  .headerParagraph {
+    width: 300px !important; } }
+
+@media screen and (max-width: 414px) {
+  .landingHeader {
+    background-position: left -630px bottom; }
+  .supimaLogo {
+    height: 80px !important; }
+  .dark-grey {
+    display: flex !important;
+    flex-direction: column !important; } }
+
+@media screen and (max-width: 375px) {
+  .landingHeader {
+    background-position: left -640px bottom; } }
+
+@media screen and (max-width: 360px) {
+  .landingHeader {
+    background-position: left -650px bottom; }
+  .headerParagraph {
+    width: 270px !important; }
+  h5 {
+    font-size: 18px; } }

@@ -24,9 +24,10 @@
 
 .modalBG {
     @include flex-center;
-    background-color: rgba(255, 255, 255, 0.288);
+    background-color: rgba(172, 170, 170, 0.637);
     height: 500px;
-    width: 100%;
+    width: 1000px;
+    border-radius: 5px;
 
     .exit {
         position: absolute;
@@ -49,8 +50,12 @@
 
         &:hover {
             transition: .8s;
-            background-color: rgba(65, 65, 65, 0.979);
+            background-color: rgba(172, 170, 170, 0.637);
             color: rgb(0, 0, 0);
         }
     }
+}
+
+@media screen and(max-width: 1200px) {
+    
 }

@@ -3,6 +3,8 @@ import "./navbar.css";
 
 //Imported icons used in the NavBar
 import navLogo from "../../images/icons-logos/MaloufLogo.png";
+import hMenu from "../../images/icons-logos/hamburger icon.png";
+
 
 
 class Navbar extends Component {
@@ -11,6 +13,7 @@ class Navbar extends Component {
             <div>
                 <div className="navBG">
                     <div>
+                        <img className="hamburgerMenu" src={hMenu} alt="Hamburger Menu"/>
                         <img className="navLogo" src={navLogo} alt="Malouf Logo"/>
                     </div>
                     <div className="navMenuParent">

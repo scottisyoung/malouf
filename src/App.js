@@ -11,7 +11,7 @@ import Footer from './components/footer/footer.js';
 class App extends Component {
   render() {
     return (
-      <div className="tempBackground">
+      <div>
         <div>
           <Navbar/>
           <Landing/>
