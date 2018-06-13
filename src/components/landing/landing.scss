@@ -216,7 +216,7 @@
 
 .videoParent {
     @include flex-center;
-    margin-top: 280px;
+    margin-top: 300px;
 
     .videoThumb {
         position: absolute;
@@ -227,9 +227,18 @@
 
     .play {
         height: 100px;
-        margin-top: 40px;
+        margin-top: 10px;
         z-index: 2;
         cursor: pointer;
+    }
+
+    .modalVideoParent {
+        margin-top: 50px;
+        @include flex-center;
+    }
+
+    .videoDef {
+        @include flex-center;
     }
 }
 

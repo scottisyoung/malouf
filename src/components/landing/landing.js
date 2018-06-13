@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import "./landing.css";
 
+// Import the Modal Component for the Video
+
+import Modal from '../modal/modal.js';
+
 // Imported images for the landing page. 
 import SupimaLogo from '../../images/icons-logos/supima-logo-white.png';
 import WovenImage from '../../images/images/supima-intro-image.jpg';
@@ -21,7 +25,25 @@ import Pillows3 from '../../images/images/divided-z-line.png';
 
 
 class Landing extends Component {
+
+        constructor() {
+            super() 
+              this.state = {
+                   show: false   
+              }
+        }
+
+        showModal = () => {
+            this.setState({
+            ...this.state, 
+            show: !this.state.show
+            });
+        }
+
+
     render() {
+
+
         return(
             <div>
 
@@ -160,9 +182,41 @@ class Landing extends Component {
                             <a className="learnMore" href="#">Learn More About Supima &#8250;</a>
                         </div>
 
+{/* This is the Section for the Video Modal*/}
+
                         <div className="videoParent">
                             <img className="videoThumb" src={videoThumb}/>
-                            <img className="play" src={Play}/>
+                            <div className="play"
+                                 type="button" 
+                                 onClick={this.showModal} 
+                                 value="Show Modal">
+
+                                <img className="play" src={Play}/>
+                            </div>
+
+                            <Modal show={this.state.show}
+                                   onClose={this.showModal}>
+
+                                <div className="modalVideoParent">
+                                    <div>
+                                        <iframe src="https://player.vimeo.com/video/226979747?title=0&byline=0&portrait=0" 
+                                            width="940" height="367" 
+                                            frameborder="0" 
+                                            webkitallowfullscreen mozallowfullscreen allowfullscreen
+                                            webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true">
+                                        </iframe>
+                                        <p>
+                                            <a className="videoDef" href="https://vimeo.com/226979747"> Woven&trade; Supima&reg; Premium Cotton Sheets</a>
+                                            <div className="videoDef"> from &nbsp; 
+                                                <a className="videoDef" href="https://vimeo.com/malouf">&nbsp;Malouf &nbsp; </a> on &nbsp; 
+                                                <a href="https://vimeo.com">Vimeo</a>.
+                                            </div> 
+                                        </p>
+                                    </div>   
+                                </div> 
+                        
+                            </Modal>
+
                         </div>
                     </div>
 

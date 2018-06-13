@@ -181,7 +181,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 280px; }
+  margin-top: 300px; }
   .videoParent .videoThumb {
     position: absolute;
     width: 1000px;
@@ -189,9 +189,20 @@
     z-index: 1; }
   .videoParent .play {
     height: 100px;
-    margin-top: 40px;
+    margin-top: 10px;
     z-index: 2;
     cursor: pointer; }
+  .videoParent .modalVideoParent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+  .videoParent .videoDef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
 
 .bg-light-grey {
   width: 100%;
