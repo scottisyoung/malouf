@@ -44,6 +44,9 @@
       letter-spacing: .5px;
       font-size: 15px;
       font-weight: 600; }
+      .landingHeader .headerTitleParent .showroom1:hover {
+        color: #686868;
+        transition: .3s; }
 
 .dark-grey {
   height: 50px;
@@ -203,6 +206,11 @@
     margin-top: 10px;
     z-index: 2;
     cursor: pointer; }
+    .videoParent .play:hover {
+      -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      transform: scale(1.03);
+      transition: .3s; }
   .videoParent .modalVideoParent {
     margin-top: 50px;
     display: flex;

@@ -65,6 +65,11 @@
             letter-spacing: .5px;
             font-size: 15px;
             font-weight: 600;
+
+            &:hover {
+                color: rgb(104, 104, 104);
+                transition: .3s;
+            }
         }
     }
 }
@@ -244,6 +249,14 @@
         margin-top: 10px;
         z-index: 2;
         cursor: pointer;
+
+            &:hover {
+                -webkit-transform: scale(1.03);
+                -ms-transform: scale(1.03);
+                transform: scale(1.03);
+
+                transition: .3s;
+            }
     }
 
     .modalVideoParent {
