@@ -92,10 +92,29 @@
     position: absolute;
     margin-top: 30px;
     margin-left: 20px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    font-family: 'Neutra';
+    font-variant-numeric: lining-nums;
+    text-transform: uppercase;
+    color: var(--color-dark-grey);
+    margin-bottom: 0.25rem;
+    font-size: 20px;
+    font-weight: 600; }
+  .wovenParent .wovenSubtitle2 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-family: 'Neutra';
+    font-variant-numeric: lining-nums;
+    text-transform: uppercase;
+    color: var(--color-dark-grey);
+    margin-bottom: 0.25rem;
+    font-size: 20px;
+    font-weight: 600; }
   .wovenParent .btn {
     position: absolute;
-    margin-top: 90px;
+    margin-top: 85px;
     margin-left: -10px; }
     .wovenParent .btn .btn-black {
       display: flex;
@@ -117,22 +136,15 @@
   align-items: center;
   flex-direction: row; }
   .linenParent .linenImgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     height: 200px;
     margin-top: 20px;
     margin-right: 105px;
     margin-left: 105px; }
-  .linenParent .warranty {
-    position: absolute;
-    margin-top: 16px;
-    margin-left: 225px;
-    height: 100px; }
-
-.titleParent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row; }
-  .titleParent .linensTitle {
+  .linenParent .linensTitle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,24 +156,23 @@
     font-family: 'Neutra Bold';
     font-size: 20px;
     letter-spacing: .8px; }
-
-.paragraphParent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin-top: -20px; }
-  .paragraphParent .linenParagraphs {
+  .linenParent .linenParagraphs {
     font-size: 16px;
     letter-spacing: .4px;
+    width: 305px;
+    margin-top: -20px;
     margin-right: 50px;
     margin-left: 60px;
-    width: 305px;
     height: 240px;
     font-weight: 500; }
-  .paragraphParent #trademark {
+  .linenParent .warranty {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 225px;
+    height: 100px; }
+  .linenParent #trademark {
     font-size: 9px; }
-  .paragraphParent sup {
+  .linenParent sup {
     vertical-align: baseline;
     position: relative;
     top: -0.4em; }
@@ -393,28 +404,96 @@
 
 @media screen and (max-width: 1700px) {
   .landingHeader {
-    height: 675px; } }
+    height: 675px; }
+  .linenImgs {
+    margin-right: 80px !important;
+    margin-left: 80px !important; }
+  .warranty {
+    margin-left: 218px !important; }
+  .linensTitle {
+    margin-right: 57px !important;
+    margin-left: 57px !important; }
+  .linenParagraphs {
+    margin-right: 30px !important;
+    margin-left: 35px !important; } }
 
 @media screen and (max-width: 1600px) {
   .landingHeader {
     height: 625px; }
   .headerTitleParent {
     margin-top: 120px !important;
-    margin-right: 50px; } }
+    margin-right: 50px; }
+  .wovenParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px; }
+  .wovenImg {
+    height: 520px !important;
+    width: 870px !important; }
+  .linenImgs {
+    margin-right: 70px !important;
+    margin-left: 70px !important; }
+  .warranty {
+    margin-left: 205px !important; }
+  .linensTitle {
+    margin-right: 50px !important;
+    margin-left: 50px !important; }
+  .linenParagraphs {
+    margin-right: 20px !important;
+    margin-left: 25px !important; } }
 
 @media screen and (max-width: 1536px) {
   .landingHeader {
     height: 575px; }
   .headerTitleParent {
     margin-top: 90px !important;
-    margin-right: 70px; } }
+    margin-right: 70px; }
+  .wovenParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 40px; }
+  .linenImgs {
+    margin-right: 60px !important;
+    margin-left: 60px !important; }
+  .warranty {
+    margin-left: 195px !important; }
+  .linensTitle {
+    margin-right: 40px !important;
+    margin-left: 40px !important; }
+  .linenParagraphs {
+    margin-right: 10px !important;
+    margin-left: 20px !important; } }
 
 @media screen and (max-width: 1400px) {
   .landingHeader {
     height: 525px; }
   .headerTitleParent {
     margin-top: 70px !important;
-    margin-right: 100px; } }
+    margin-right: 100px; }
+  .wovenParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 50px; }
+  .linenImgs {
+    margin-right: 50px !important;
+    margin-left: 50px !important; }
+  .warranty {
+    margin-left: 185px !important; }
+  .linensTitle {
+    margin-right: 30px !important;
+    margin-left: 30px !important; }
+  .linenParagraphs {
+    margin-right: 10px !important;
+    margin-left: 20px !important;
+    font-size: 14px !important;
+    letter-spacing: .3px !important;
+    width: 264px !important; } }
 
 @media screen and (max-width: 1366px) {
   .landingHeader {
@@ -429,14 +508,45 @@
     height: 475px; }
   .headerTitleParent {
     margin-top: 40px !important;
-    margin-right: 300px; } }
+    margin-right: 300px; }
+  .linenImgs {
+    margin-right: 40px !important;
+    margin-left: 40px !important;
+    height: 180px !important; }
+  .warranty {
+    height: 80px !important;
+    margin-left: 160px !important; }
+  .linensTitle {
+    margin-right: 6px !important;
+    margin-left: 6px !important; }
+  .linenParagraphs {
+    margin-right: 20px !important;
+    margin-left: 25px !important;
+    font-size: 14px !important;
+    letter-spacing: .3px !important;
+    width: 250px !important; } }
 
 @media screen and (max-width: 1190px) {
   .landingHeader {
     background-position: bottom; }
   .headerTitleParent {
     margin-top: 40px !important;
-    margin-right: 300px; } }
+    margin-right: 300px; }
+  .wovenParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 60px; }
+  .wovenImg {
+    height: 480px !important;
+    width: 770px !important; }
+  .linenParagraphs {
+    margin-right: 20px !important;
+    margin-left: 25px !important;
+    font-size: 14px !important;
+    letter-spacing: .3px !important;
+    width: 220px !important; } }
 
 @media screen and (max-width: 1100px) {
   .landingHeader {
@@ -446,17 +556,148 @@
     margin-right: 0px !important;
     margin-top: 100px !important; }
   .headerParagraph {
-    width: 500px !important; } }
+    width: 500px !important; }
+  .productBG {
+    height: 2055px; }
+  .wovenParent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px !important;
+    margin-right: 0px !important; }
+    .wovenParent .wovenCenterTitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+    .wovenParent .wovenTitle {
+      margin-top: 90px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important; }
+    .wovenParent .wovenCenterSubtitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+    .wovenParent .wovenSubtitle {
+      position: relative;
+      margin-top: 160px !important;
+      margin-left: 0px !important;
+      margin-right: 5px !important;
+      letter-spacing: 1px; }
+    .wovenParent .wovenSubtitle2 {
+      position: relative;
+      margin-top: 160px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      letter-spacing: 1px; }
+    .wovenParent .wovenCenterBtn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+    .wovenParent .btn {
+      position: absolute;
+      margin-top: 40px;
+      margin-left: 0px;
+      margin-right: 0px; }
+  .wovenImg {
+    margin-top: 80px !important;
+    margin-left: 0px !important;
+    margin-right: 140px !important;
+    height: 480px !important;
+    width: 770px !important; }
+  .linenParent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 90px;
+    margin-left: 90px; }
+  .linenImgs {
+    margin-right: 120px !important;
+    margin-left: 120px !important;
+    height: 180px !important; }
+  .warranty {
+    height: 80px !important;
+    margin-top: 20px !important;
+    margin-left: 230px !important; }
+  .linensTitle {
+    margin-right: 85px !important;
+    margin-left: 85px !important; }
+  .linenParagraphs {
+    margin-right: 0px !important;
+    margin-left: 70px !important;
+    margin-bottom: -50px;
+    font-size: 16px !important;
+    letter-spacing: .4px !important;
+    width: 305px !important; }
+  .learnMore {
+    margin-top: 30px; } }
 
 @media screen and (max-width: 1024px) {
   .headerTitleParent {
-    margin-top: 90px !important; } }
+    margin-top: 90px !important; }
+  .productBG {
+    height: 2015px; }
+  .linenParent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px; }
+  .videoParent {
+    margin-top: 250px; }
+  .videoThumb {
+    width: 900px !important;
+    height: 450px !important; } }
+
+@media screen and (max-width: 992px) {
+  .videoThumb {
+    width: 850px !important;
+    height: 450px !important; } }
+
+@media screen and (max-width: 906px) {
+  .linenImgs {
+    margin-right: 80px !important;
+    margin-left: 80px !important;
+    height: 180px !important; }
+  .warranty {
+    height: 80px !important;
+    margin-top: 20px !important;
+    margin-left: 200px !important; }
+  .linensTitle {
+    margin-right: 50px !important;
+    margin-left: 50px !important; }
+  .linenParagraphs {
+    margin-right: 0px !important;
+    margin-left: 70px !important;
+    margin-bottom: -50px;
+    font-size: 14px !important;
+    letter-spacing: .3px !important;
+    width: 220px !important; }
+  .videoThumb {
+    width: 800px !important;
+    height: 400px !important; } }
+
+@media screen and (max-width: 834px) {
+  .videoThumb {
+    width: 750px !important;
+    height: 375px !important; } }
 
 @media screen and (max-width: 812px) {
   .headerTitleParent {
     margin-top: 80px !important; }
   .headerParagraph {
-    width: 450px !important; } }
+    width: 450px !important; }
+  .videoThumb {
+    width: 700px !important;
+    height: 375px !important; } }
+
+@media screen and (max-width: 736px) {
+  .productBG {
+    height: 1970px; }
+  .videoParent {
+    margin-top: 200px; }
+  .videoThumb {
+    width: 650px !important;
+    height: 350px !important; } }
 
 @media screen and (max-width: 640px) {
   .headerParagraph {
