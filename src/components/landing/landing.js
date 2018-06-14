@@ -66,7 +66,7 @@ class Landing extends Component {
                                 with a premium, luxurious feel that customers love. We also introduced our
                                 meticulously finished headboard line and expanded shoulder pillow offering.
                                 </div>
-                                <a href="#">
+                                <a href="">
                                     <div className="showroom1">View Showroom Recap &#8250;</div>
                                 </a>
                             </div>
@@ -79,7 +79,7 @@ class Landing extends Component {
                         <div className="vegas">
                             <div>MISS US IN VEGAS?</div>
                         </div>
-                        <div className="upcoming"><a className="upcoming" href="#">Other Upcoming Shows &#8250;</a></div>
+                        <div className="upcoming"><a className="upcoming" href="" >Other Upcoming Shows &#8250;</a></div>
                     </div>
 
 {/*Product Section:  This is the white background section.*/}
@@ -104,7 +104,7 @@ class Landing extends Component {
                                 </div>
                             </div>
                             <div>
-                                <img className="wovenImg" src={WovenImage}/>
+                                <img className="wovenImg" src={WovenImage} alt="Woven Cotton Blanket"/>
                             </div>
                         </div>
                     
@@ -113,7 +113,7 @@ class Landing extends Component {
 
                         <div className="linenParent">
                             <div>
-                                <img className="linenImgs" src={Linen1}/>
+                                <img className="linenImgs" src={Linen1} alt="Multiple Luxurious Sheets"/>
                                 <div className="linensTitle"> LUXURIOUS FEEL </div>
                                 <div className="linenParagraphs">
                                 This superior extra-long staple cotton is
@@ -125,8 +125,8 @@ class Landing extends Component {
                             </div>
                             </div>
                             <div>
-                                <img className="warranty" src={year}/>
-                                <img className="linenImgs" src={Cotton}/>
+                                <img className="warranty" src={year} alt="5 Year Warrenty Seal"/>
+                                <img className="linenImgs" src={Cotton} alt="Fresh Cotton"/>
                                 <div className="linensTitle"> SUPERIOR STRENGTH </div>
                                 <div className="linenParagraphs">
                                 Twice as strong as regular cotton,
@@ -139,7 +139,7 @@ class Landing extends Component {
                             </div>
                             </div>
                             <div>
-                                <img className="linenImgs" src={Linen2}/>
+                                <img className="linenImgs" src={Linen2} alt="Beautiful Colored Sheets"/>
                                 <div className="linensTitle"> BEAUTIFUL COLOR </div>
                                 <div className="linenParagraphs">
                                 Supima cotton is finely woven and
@@ -151,7 +151,7 @@ class Landing extends Component {
                             </div>   
                             </div>
                             <div>
-                                <img className="linenImgs" src={Seal}/>
+                                <img className="linenImgs" src={Seal} alt="Protected Fiber"/>
                                 <div className="linensTitle"> PROTECTED FIBER </div>
                                 <div className="linenParagraphs">
                                 Supima<sup><i id="trademark" className="fa fa-registered"></i></sup> is the trademark used to
@@ -166,19 +166,19 @@ class Landing extends Component {
                         </div>
 
                         <div>
-                            <a className="learnMore" href="#">Learn More About Supima &#8250;</a>
+                            <a className="learnMore" href="">Learn More About Supima &#8250;</a>
                         </div>
 
 {/* This is the Section for the Video Modal*/}
 
                         <div className="videoParent">
-                            <img className="videoThumb" src={videoThumb}/>
+                            <img className="videoThumb" src={videoThumb} alt="Cotton Video"/>
                             <div className="play"
                                  type="button" 
                                  onClick={this.showModal} 
                                  value="Show Modal">
 
-                                <img className="play" src={Play}/>
+                                <img className="play" src={Play} alt="Play Button"/>
                             </div>
 
                             <Modal show={this.state.show}
@@ -186,10 +186,10 @@ class Landing extends Component {
 
                                 <div className="modalVideoParent">
                                     <div>
-                                        <iframe src="https://player.vimeo.com/video/226979747?title=0&byline=0&portrait=0" 
+                                        <iframe src="https://player.vimeo.com/video/226979747?title=0&byline=0&portrait=0"
+                                            title="Malouf Sheets" 
                                             width="940" height="367" 
-                                            frameborder="0" 
-                                            webkitallowfullscreen mozallowfullscreen allowfullscreen
+                                            frameBorder="0" 
                                             webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true">
                                         </iframe>
                                         <p>
@@ -210,7 +210,7 @@ class Landing extends Component {
 {/*Pillow Line Section:  This is the section with the light grey background*/}
 
                     <div className="bg-light-grey">
-                        <img className="field" src={Field}/>
+                        <img className="field" src={Field} alt="Field of Cotton"/>
 
                         <div className="pillowTitle">
                             <h3>WE'VE EXPANDED THE Z<sup><i id="sup" className="fa fa-trademark"></i></sup></h3>
@@ -231,34 +231,34 @@ class Landing extends Component {
 
                         <div className="pillowImgParent">
                             <div>
-                                <img className="pillowsImg1" src ={Pillows}/>
+                                <img className="pillowsImg1" src ={Pillows} alt=" Arrangment of Pillows"/>
                             </div>
                         </div>
 
                         <div className="pillowNamesParent">
                             <div className="pillowSpace">
                                 <p className="sans-serif italic">Gel Dough <sup><i id="pillowReg" className="fa fa-registered"></i></sup> + Z <sup><i id="pillowSup" className="fa fa-trademark"></i></sup> Gel</p>
-                                <a href="#">View &#8250;</a>  
+                                <a href="">View &#8250;</a>  
                             </div>
                             <div className="pillowSpace">
                                 <p className="sans-serif italic">Zoned Gel Dough <sup><i id="pillowReg" className="fa fa-registered"></i></sup></p>
-                                <a href="#">View &#8250;</a> 
+                                <a href="">View &#8250;</a> 
                             </div>
                             <div className="pillowSpace">
                                 <p className="sans-serif italic">Bamboo Charcoal</p>
-                                <a href="#">View &#8250;</a> 
+                                <a href="">View &#8250;</a> 
                             </div>
                             <div className="pillowSpace">
                                 <p className="sans-serif italic">Lavender</p>
-                                <a href="#">View &#8250;</a> 
+                                <a href="">View &#8250;</a> 
                             </div>
                             <div className="pillowSpace">
                                 <p className="sans-serif italic">Chamomile</p>
-                                <a href="#">View &#8250;</a> 
+                                <a href="">View &#8250;</a> 
                             </div>
                             <div className="pillowSpace">
                                 <p className="sans-serif italic">Peppermint</p>
-                                <a href="#">View &#8250;</a> 
+                                <a href="">View &#8250;</a> 
                             </div>
                         </div>
 
@@ -266,37 +266,37 @@ class Landing extends Component {
 
                     <div className="hiddenPillowsParent">
                         <div>
-                            <img className="pillows3" src ={Pillows3}/>
+                            <img className="pillows3" src ={Pillows3} alt="Variety of Pillows"/>
                             <div className="rowPillows">
                                 <div className="centerHiddenTitles">
                                     <p className="sans-serif italic">Lavender</p>
-                                    <a href="#">View &#8250;</a> 
+                                    <a href="">View &#8250;</a> 
                                 </div>
                                 <div className="centerHiddenTitles">
                                     <p className="sans-serif italic">Chamomile</p>
-                                    <a href="#">View &#8250;</a>  
+                                    <a href="">View &#8250;</a>  
                                 </div>
                                 <div className="centerHiddenTitles">
                                     <p className="sans-serif italic">Peppermint</p>
-                                    <a href="#">View &#8250;</a> 
+                                    <a href="">View &#8250;</a> 
                                 </div>
                             </div>  
                         </div>
 
                         <div>
-                            <img className="pillows2" src ={Pillows2}/>
+                            <img className="pillows2" src ={Pillows2} alt="Pattened Pillows"/>
                             <div className="rowPillows">
                                 <div className="centerHiddenTitles2">
                                     <p className="sans-serif italic">Gel Dough <sup><i id="pillowReg" className="fa fa-registered"></i></sup> + Z <sup><i id="pillowSup" className="fa fa-trademark"></i></sup> Gel</p>
-                                    <a href="#">View &#8250;</a>  
+                                    <a href="">View &#8250;</a>  
                                 </div>
                                 <div className="centerHiddenTitles2">
                                     <p className="sans-serif italic">Zoned Gel Dough <sup><i id="pillowReg" className="fa fa-registered"></i></sup></p>
-                                    <a href="#">View &#8250;</a> 
+                                    <a href="">View &#8250;</a> 
                                 </div>
                                 <div className="centerHiddenTitles2">
                                     <p className="sans-serif italic">Bamboo Charcoal</p>
-                                    <a href="#">View &#8250;</a> 
+                                    <a href="">View &#8250;</a> 
                                 </div>
                             </div>
                         </div>
@@ -308,15 +308,15 @@ class Landing extends Component {
                                 <div>
                                     <p id="headboardTitle" className="sans-serif bold">A TOUCH OF ELEGANCE:</p>
                                     <p className="newStructures">New Structures <sup><i id="supStructures" className="fa fa-trademark"></i></sup> &nbsp;Headboards</p>
-                                    <img className="headboard" src={Headboard}/>
+                                    <img className="headboard" src={Headboard} alt="Beds Headboard"/>
                                 </div>
                             </div>
                             <div>
-                                <img className="showroom" src={Showroom}/>
+                                <img className="showroom" src={Showroom} alt="Conference Showroom"/>
                             </div>
                             <div>
                                 <div>
-                                    <img className="hamburger" src={Hamburger}/>
+                                    <img className="hamburger" src={Hamburger} alt="Delicious Hamburger"/>
                                     <p id="hamburgerTitle" className="sans-serif bold">A SENSATIONAL EXPERIENCE:</p>
                                     <p className="chefPrepared">Chef-Prepared Gourmet Food & Giveaways</p>
                                 </div>
@@ -329,9 +329,9 @@ class Landing extends Component {
                             <div className="centerRandomPics">
                                 <div> <p id="headboardTitle2" className="sans-serif bold">A TOUCH OF ELEGANCE:</p> </div>
                                 <div> <p className="newStructures2">New Structures <sup><i id="supStructures" className="fa fa-trademark"></i></sup> &nbsp;Headboards</p> </div>
-                                <div> <img className="headboard2" src={Headboard}/></div>
-                                <div> <img className="showroom2" src={Showroom}/> </div>
-                                <div> <img className="hamburger2" src={Hamburger}/> </div>
+                                <div> <img className="headboard2" src={Headboard} alt="Headboard of a Bed"/></div>
+                                <div> <img className="showroom2" src={Showroom} alt="Sales Conference"/> </div>
+                                <div> <img className="hamburger2" src={Hamburger} alt="Gourmet Food"/> </div>
                                 <div> <p id="hamburgerTitle2" className="sans-serif bold">A SENSATIONAL EXPERIENCE:</p> </div>
                                 <div> <p className="chefPrepared2">Chef-Prepared Gourmet Food & Giveaways</p> </div>
                             </div>
@@ -351,7 +351,7 @@ class Landing extends Component {
                             <h5 className="thankSub">FOR ANOTHER GREAT MARKET</h5>
                         </div>
                         <div className="thankTitle">
-                            <a href="#" className="recap">View Showroom Recap &#8250;</a>
+                            <a href="" className="recap">View Showroom Recap &#8250;</a>
                         </div>
                     </div>
                 </div>
