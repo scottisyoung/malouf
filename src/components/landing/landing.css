@@ -677,7 +677,7 @@
   .headerParagraph {
     width: 500px !important; }
   .productBG {
-    height: 2080px; }
+    height: 2130px; }
   .wovenParent {
     display: flex;
     flex-direction: column;
@@ -843,7 +843,7 @@
   .headerTitleParent {
     margin-top: 90px !important; }
   .productBG {
-    height: 2015px; }
+    height: 2030px; }
   .linenParent {
     display: flex;
     flex-wrap: wrap;
@@ -923,6 +923,8 @@
     margin-top: 80px !important; }
   .headerParagraph {
     width: 450px !important; }
+  .productBG {
+    height: 1970px !important; }
   .wovenImg {
     margin-right: 0px !important;
     margin-left: 0px !important;
@@ -951,7 +953,7 @@
 
 @media screen and (max-width: 736px) {
   .productBG {
-    height: 2750px !important; }
+    height: 1830px !important; }
   .wovenImg {
     margin-right: 50px !important;
     height: 380px !important;
@@ -977,7 +979,13 @@
   .thank {
     margin-top: 880px !important; } }
 
+@media screen and (max-width: 699px) {
+  .productBG {
+    height: 2750px !important; } }
+
 @media screen and (max-width: 667px) {
+  .productBG {
+    height: 2750px !important; }
   .videoThumb {
     width: 600px !important;
     height: 370px !important; }
@@ -1152,7 +1160,7 @@
   .supimaLogo {
     height: 80px !important; }
   .productBG {
-    height: 2580px !important; }
+    height: 2630px !important; }
   .wovenImg {
     margin-right: 0px !important;
     margin-left: 0px !important;
@@ -1189,6 +1197,8 @@
 @media screen and (max-width: 375px) {
   .landingHeader {
     background-position: left -640px bottom; }
+  .productBG {
+    height: 2600px !important; }
   .videoThumb {
     width: 330px !important;
     height: 200px !important; }
