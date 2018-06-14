@@ -67,7 +67,7 @@ class Landing extends Component {
                                 meticulously finished headboard line and expanded shoulder pillow offering.
                                 </div>
                                 <a href="#">
-                                    <div className="showroom">View Showroom Recap &#8250;</div>
+                                    <div className="showroom1">View Showroom Recap &#8250;</div>
                                 </a>
                             </div>
                         </div>
@@ -164,58 +164,6 @@ class Landing extends Component {
                             </div>
                             </div>
                         </div>
-
-                        {/* <div className="titleParent">
-                            <div className="linensTitle">
-                                LUXURIOUS FEEL
-                            </div>
-                            <div className="linensTitle">
-                                SUPERIOR STRENGTH
-                            </div>
-                            <div className="linensTitle">
-                                BEAUTIFUL COLOR
-                            </div>
-                            <div className="linensTitle">
-                                PROTECTED FIBER
-                            </div>
-                        </div> */}
-
-                        {/* <div className="paragraphParent">
-                            <div className="linenParagraphs">
-                                This superior extra-long staple cotton is
-                                100 percent American grown. The fibers
-                                are an impressive 35 percent longer than
-                                upland cotton and produce smoother,
-                                softer yarns. The result is luxurious 
-                                sateen sheets with an elegant drape.
-                            </div>
-                            <div className="linenParagraphs">
-                                Twice as strong as regular cotton,
-                                Supima cotton resists pilling, breaking,
-                                and tearing. Backed by our industry-
-                                leading 5-year warranty, this resilient
-                                fiber lasts longer than regular cotton and 
-                                keeps its brilliance through years of 
-                                washing.
-                            </div>
-                            <div className="linenParagraphs">
-                                Supima cotton is finely woven and
-                                mercerized to create fabric that is softer
-                                and more vibrantly colored. Enjoy our 
-                                elegant color palatte of White, Smoke,
-                                Flax, and Charcoal for truly luxurious
-                                sheeting that customers covet.
-                            </div>
-                            <div className="linenParagraphs">
-                                Supima<sup><i id="trademark" className="fa fa-registered"></i></sup> is the trademark used to
-                                promote American-grown, extra-long
-                                staple cotton. To bear the Supima
-                                trademark, products must be sourced
-                                through a licensed supply chain. This 
-                                process protects buyers from false
-                                advertising. 
-                            </div>
-                        </div> */}
 
                         <div>
                             <a className="learnMore" href="#">Learn More About Supima &#8250;</a>
@@ -314,6 +262,47 @@ class Landing extends Component {
                             </div>
                         </div>
 
+{/* Hidden Section until media queries reach cell phone size*/}
+
+                    <div className="hiddenPillowsParent">
+                        <div>
+                            <img className="pillows3" src ={Pillows3}/>
+                            <div className="rowPillows">
+                                <div className="centerHiddenTitles">
+                                    <p className="sans-serif italic">Lavender</p>
+                                    <a href="#">View &#8250;</a> 
+                                </div>
+                                <div className="centerHiddenTitles">
+                                    <p className="sans-serif italic">Chamomile</p>
+                                    <a href="#">View &#8250;</a>  
+                                </div>
+                                <div className="centerHiddenTitles">
+                                    <p className="sans-serif italic">Peppermint</p>
+                                    <a href="#">View &#8250;</a> 
+                                </div>
+                            </div>  
+                        </div>
+
+                        <div>
+                            <img className="pillows2" src ={Pillows2}/>
+                            <div className="rowPillows">
+                                <div className="centerHiddenTitles2">
+                                    <p className="sans-serif italic">Gel Dough <sup><i id="pillowReg" className="fa fa-registered"></i></sup> + Z <sup><i id="pillowSup" className="fa fa-trademark"></i></sup> Gel</p>
+                                    <a href="#">View &#8250;</a>  
+                                </div>
+                                <div className="centerHiddenTitles2">
+                                    <p className="sans-serif italic">Zoned Gel Dough <sup><i id="pillowReg" className="fa fa-registered"></i></sup></p>
+                                    <a href="#">View &#8250;</a> 
+                                </div>
+                                <div className="centerHiddenTitles2">
+                                    <p className="sans-serif italic">Bamboo Charcoal</p>
+                                    <a href="#">View &#8250;</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                         <div className="randomPicsParent">
                             <div>
                                 <div>
@@ -333,6 +322,21 @@ class Landing extends Component {
                                 </div>
                             </div>
                         </div>
+
+{/* Hidden area until Tablet and Cell Phone Media Queries*/}
+
+                        <div className="unhide">
+                            <div className="centerRandomPics">
+                                <div> <p id="headboardTitle2" className="sans-serif bold">A TOUCH OF ELEGANCE:</p> </div>
+                                <div> <p className="newStructures2">New Structures <sup><i id="supStructures" className="fa fa-trademark"></i></sup> &nbsp;Headboards</p> </div>
+                                <div> <img className="headboard2" src={Headboard}/></div>
+                                <div> <img className="showroom2" src={Showroom}/> </div>
+                                <div> <img className="hamburger2" src={Hamburger}/> </div>
+                                <div> <p id="hamburgerTitle2" className="sans-serif bold">A SENSATIONAL EXPERIENCE:</p> </div>
+                                <div> <p className="chefPrepared2">Chef-Prepared Gourmet Food & Giveaways</p> </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
