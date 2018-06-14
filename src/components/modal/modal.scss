@@ -98,10 +98,6 @@
 
     .modalVideoParent {
         margin-top: 10px !important;
-
-        p {
-            margin-top: -15px;
-        }
     }
 
     iframe {
@@ -122,7 +118,7 @@
     .modalVideoParent {
         margin-top: -15px !important;
 
-        p {
+        .videoDescription {
             margin-top: -30px;
         }
     }
@@ -141,8 +137,8 @@
 
     .modalVideoParent {
         margin-top: -25px !important;
-
-        p {
+        
+        .videoDescription {
             margin-top: -50px;
         }
     }
@@ -166,8 +162,8 @@
     .modalVideoParent {
         margin-top: -50px !important;
 
-        p {
-            margin-top: -70px;
+        .videoDescription {
+            margin-top: -80px;
         }
     }
 
@@ -188,9 +184,9 @@
     }
 
     .modalVideoParent {
-        margin-top: -70px !important;
+        margin-top: -90px !important;
 
-        p {
+        .videoDescription {
             margin-top: -90px;
         }
     }
@@ -212,10 +208,10 @@
     }
 
     .modalVideoParent {
-        margin-top: -70px !important;
+        margin-top: -90px !important;
 
-        p {
-            margin-top: -90px;
+        .videoDescription {
+            margin-top: -100px;
         }
     }
 
@@ -243,10 +239,9 @@
     }
 
     .modalVideoParent {
-        margin-top: -90px !important;
+        margin-top: -100px !important;
 
-        p {
-            font-size: 12px;
+        .videoDescription {
             margin-top: -110px;
         }
     }

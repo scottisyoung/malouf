@@ -190,15 +190,15 @@ class Landing extends Component {
                                             title="Malouf Sheets" 
                                             width="940" height="367" 
                                             frameBorder="0" 
-                                            webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true">
+                                            webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen="true">
                                         </iframe>
-                                        <p>
+                                        <div className="videoDescription">
                                             <a className="videoDef" href="https://vimeo.com/226979747"> Woven&trade; Supima&reg; Premium Cotton Sheets</a>
                                             <div className="videoDef"> from &nbsp; 
                                                 <a className="videoDef" href="https://vimeo.com/malouf">&nbsp;Malouf &nbsp; </a> on &nbsp; 
                                                 <a href="https://vimeo.com">Vimeo</a>.
                                             </div> 
-                                        </p>
+                                        </div>
                                     </div>   
                                 </div> 
                         
