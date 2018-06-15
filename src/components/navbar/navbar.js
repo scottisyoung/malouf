@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import "./navbar.css";
 
 //Imported icons used in the NavBar
-import navLogo from "../../images/icons-logos/MaloufLogo.png";
-import hMenu from "../../images/icons-logos/hamburger icon.png";
-
-
 
 class Navbar extends Component {
     render() {
@@ -13,8 +9,8 @@ class Navbar extends Component {
             <div>
                 <div className="navBG">
                     <div>
-                        <img className="hamburgerMenu" src={hMenu} alt="Hamburger Menu"/>
-                        <img className="navLogo" src={navLogo} alt="Malouf Logo"/>
+                        <img className="hamburgerMenu" src='https://res.cloudinary.com/scottisyoung/image/upload/v1529018365/Malouf/resized%20images/hamburger_icon.png' alt="Hamburger Menu"/>
+                        <img className="navLogo" src='https://res.cloudinary.com/scottisyoung/image/upload/v1529018368/Malouf/resized%20images/MaloufLogo.png' alt="Malouf Logo"/>
                     </div>
                     <div className="navMenuParent">
                         <div className="navMenu"><div>PRODUCTS</div></div>
@@ -26,7 +22,7 @@ class Navbar extends Component {
                         <div className="shopCount"> 0 </div>
                         <i id="shop" className="fa fa-shopping-cart"></i>
                         <div className="divider"> | </div> 
-                        <i id="lock" className="fa fa-lock">&ensp;Login</i>
+                        <i id="lock" className="fa fa-lock"></i><div className="lock">Login</div>
                     </div>
                     <div></div>
                 </div>

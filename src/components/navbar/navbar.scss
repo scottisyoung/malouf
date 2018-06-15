@@ -68,9 +68,9 @@
 
 #shop {
     position: absolute;
-    top: 15px;
+    top: 16px;
     right: 120px;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -84,9 +84,17 @@
 
 #lock {
     position: absolute;
-    top: 21px;
-    right: 30px;
+    top: 18px;
+    right: 80px;
     font-size: 14px;
+}
+
+.lock {
+    font-family: 'Neutra Bold';
+    position: absolute;
+    top: 20px;
+    right: 36px;
+    font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
     cursor: pointer;

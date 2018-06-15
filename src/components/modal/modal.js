@@ -16,12 +16,12 @@ class Modal extends Component {
         return(
             <div>
                 <div className="modalPageBG">
-                    <div className="modalBG">
-                        <div className="exit">
-                            <div className="closeButton" 
-                                 onClick={(e) => {this.onClose(e)}}> CLOSE 
+                    <div className="exit">
+                                <div className="closeButton" 
+                                    onClick={(e) => {this.onClose(e)}}> CLOSE 
+                                </div>
                             </div>
-                        </div>
+                    <div className="modalBG">
                         {this.props.children} 
                     </div>
                 </div>

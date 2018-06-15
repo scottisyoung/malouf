@@ -19,7 +19,7 @@
 // Main Header Section:  This is the section that has the flower background.
 
 .landingHeader {
-    background:url("../../images/images/supima-header-web.jpg");
+    background:url("https://res.cloudinary.com/scottisyoung/image/upload/v1529018376/Malouf/resized%20images/supima-header-web.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -290,7 +290,10 @@
         }
 
         #sup {
-            font-size: 18px;
+            font-size: 16px;
+            vertical-align: baseline;
+            position: relative;
+            top: 0.2em;
 
             h3 {
                 letter-spacing: 1px;
@@ -403,7 +406,7 @@
         }
 
         #supStructures {
-            font-size: 11px;
+            font-size: 10px;
         }
 
         sup {
@@ -1039,6 +1042,27 @@
         height: 190px;
     }
 
+    #pillowReg {
+        font-size: 9px;
+    }
+
+    #pillowSup {
+        font-size: 9px;
+    }
+
+        #supStructures {
+            position: relative;
+            right: 3.5px;
+            font-size: 8px;
+
+        }
+
+    sup {
+        vertical-align: baseline;
+        position: relative;
+        top: -0.4em;
+    }
+
     .rowPillows {
         @include flex-center;
         margin-top: -15px;
@@ -1258,6 +1282,12 @@
         margin-right: 20px !important;
     }
 
+    .linenImgs {
+        margin-right: 70px !important;
+        margin-left: 70px !important;
+        height: 180px !important;
+    }
+
     .videoThumb {
         width: 750px !important;
         height: 375px !important;
@@ -1350,9 +1380,11 @@
         width: 560px !important;
     }
 
-    .linenParent {
-        margin-right: 20px;
-        margin-left: 20px;
+    .linenImgs {
+        margin-right: 80px !important;
+        margin-left: 80px !important;
+        height: 180px !important;
+        width: 190px;
     }
     
     .videoParent {
@@ -1385,18 +1417,26 @@
     .thank {
         margin-top: 880px !important;
     }
+
+    .linenParent {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-@media screen and(max-width: 699px) {
+@media screen and(max-width: 716px) {
+    .linenParent {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
     .productBG {
         height: 2750px !important;
     }
 }
+
 
 @media screen and(max-width: 667px) {
-    .productBG {
-        height: 2750px !important;
-    }
 
     .videoThumb {
         width: 600px !important;

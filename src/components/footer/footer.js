@@ -8,7 +8,7 @@ class Footer extends Component {
         return(
             <div>
                 <div className="footerBG">
-
+                    <div className="footerContent">  This is where the footer will go </div>
                 </div>
             </div>
         )

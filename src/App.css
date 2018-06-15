@@ -6,22 +6,22 @@
 
 @font-face {
 	font-family: 'Neutra';
-    src: url("./fonts/Neutra2Text-Book.otf");
+    src: url("./components/fonts/Neutra2Text-Book.otf");
 }
 
 @font-face {
 	font-family: 'Neutra Bold';
-	src: url('./fonts/Neutra2Text-Bold.otf');
+    src: url('./components/fonts/Neutra2Text-Bold.otf');
 }
 
 @font-face {
 	font-family: 'Neutra Semibold';
-    src: url('./fonts/Neutra2Text-Demi.otf');
+    src: url('./components/fonts/Neutra2Text-Demi.otf');
 }
 
 @font-face {
 	font-family: 'Neutra Italic';
-    src: url('./fonts/Neutra2Text-BookItalic.otf');
+    src: url('./components/fonts/Neutra2Text-BookItalic.otf');
 }
 
 
